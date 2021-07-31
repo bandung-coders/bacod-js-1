@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Belajar 1</title>
+  <style>
+    .b-logo {
+      display: inline-block;
+      width: 140px;
+      background: #000;
+      color: #FFF;
+      text-align: center;
+      padding: 5px 20px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 1.5rem;
+    }
+
+    .b-logo-merah {
+      background: #F00 !important;
+    }
+
+    .none {
+      display: none !important;
+    }
+  </style>
+</head>
+<body>
+
+  <h1 id="nama">Restu D. Cahyo</h1>
+
+  <button type="button" onclick="ubahTulisan()"> KLIK </button>
+
+  <br>
+  <hr>
+  <br>
+
+
+  <input type="text" placeholder="Nama Depan" id="namaDepan">
+
+  <input type="text" placeholder="Nama Belakang" id="namaBelakang">
+
+  <button type="button" onclick="ambilNama()"> KLIK </button>
+  
+  <br>
+  <hr>
+  <br>
+  
+  <div class="b-logo" id="logo">
+    BACOD
+  </div>
+
+  <button type="button" onclick="nambahClass()"> UBAH WARNA </button>
+
+  <button type="button" onclick="hapusClass()"> DEFAULT </button>
+
+  <button type="button" onclick="sembunyikan()"> HIDE </button>
+
+  <script src="dom.js"></script>
+</body>
+</html>
